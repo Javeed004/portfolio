@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Hk Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Jost-Regular.ttf') format('woff');
+}
+
+@layer base {
+  /* (16/10)*100 = 62.5% => 1rem = 10px. Every Tailwind rem-based utility
+     (spacing, font sizes, the custom values in tailwind.config.js) scales
+     off this, exactly like the original site. */
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+  @media (max-width: 1000px) {
+    html {
+      font-size: 52%;
+    }
+  }
+
+  body {
+    @apply font-sans text-small text-white-1 bg-black;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  img {
+    object-fit: contain;
+    max-width: 100%;
+  }
+
+  ::-moz-focus-inner {
+    border: 0;
+  }
+
+  /* Only show a focus ring for keyboard users (see useKeyboardFocus hook,
+     which toggles the "user-is-tabbing" class on <body>). */
+  button:focus,
+  a:focus {
+    outline: 2px solid theme('colors.pink');
+  }
+
+  body:not(.user-is-tabbing) button:focus,
+  body:not(.user-is-tabbing) a:focus {
+    outline: none;
+  }
+}
