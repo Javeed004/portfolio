@@ -9,9 +9,9 @@ export default function Skills() {
       <div className={`${ROW} max-[1240px]:px-gutter-normal`}>
         <SectionHeading>My Skills</SectionHeading>
 
-        <div className="grid grid-cols-[2fr_1fr] max-[900px]:grid-cols-1 gap-gutter-medium max-[900px]:gap-gutter-normal items-start">
+        <div className="grid grid-cols-1 min-[700px]:grid-cols-2 min-[1200px]:grid-cols-3 gap-gutter-medium max-[900px]:gap-gutter-normal items-start">
           {skillGroups.map((group) => (
-            <SkillsBox key={group.title} title={group.title} items={group.items} />
+            <SkillsBox key={group.title} title={group.title} icon={group.icon} items={group.items} />
           ))}
         </div>
       </div>

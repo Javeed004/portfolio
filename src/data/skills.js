@@ -1,29 +1,31 @@
+// Each group renders as its own card in the Skills section.
+// `icon` keys map to the icon components in components/Icons.jsx.
+
 const skillGroups = [
   {
-    title: 'Technical Skills',
+    title: 'Languages & Tools',
+    icon: 'code',
+    items: ['Python', 'R', 'C++', 'SQL', 'Excel', 'Git', 'Figma', 'Web Development — MERN Stack'],
+  },
+  {
+    title: 'AI, ML & Data',
+    icon: 'chip',
     items: [
-      'Python',
+      'Machine Learning',
+      'Deep Learning',
       'LLM',
       'RAG',
       'LLM Evaluation',
-      'R',
-      'C++',
-      'SQL',
-      'Excel',
-      'Machine Learning',
+      'Gen AI',
+      'TensorFlow',
       'Exploratory Data Analysis',
       'Data Mining',
-      'TensorFlow',
-      'Git',
-      'Figma',
-      'Deep Learning',
-      'Gen AI',
       'Flask API',
-      'Web Development — MERN Stack',
     ],
   },
   {
     title: 'Soft Skills',
+    icon: 'users',
     items: ['Problem-Solving', 'Teamwork', 'Communication', 'Design Thinking', 'Adaptability'],
   },
 ]
