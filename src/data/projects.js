@@ -1,3 +1,12 @@
+// `featured: true`  -> shown in the large showcase layout at the top of the
+//                      Work section (keep this to your 2-3 strongest projects).
+// `featured: false` -> shown in the compact "View All Projects" grid below.
+//
+// TODO: replace the placeholder entries at the bottom (marked "TODO") with
+// your real projects — title, description, tags, links, and a screenshot
+// dropped into /public/images. You can add as many as you like; the grid
+// wraps automatically.
+
 const projects = [
   {
     title: 'Multi Model Based Authentication System',
@@ -8,6 +17,7 @@ const projects = [
     demoUrl: null,
     image: '/images/project-1.png',
     reversed: false,
+    featured: true,
   },
   {
     title: 'Smart Energy Monitoring',
@@ -18,6 +28,7 @@ const projects = [
     demoUrl: null,
     image: '/images/energy.png',
     reversed: true,
+    featured: true,
   },
   {
     title: 'Cropy',
@@ -29,6 +40,7 @@ const projects = [
       'https://drive.google.com/file/d/19R2qQbSh8645B8hFhCL_8senob-prcJJ/view?usp=sharing',
     image: '/images/project-1.png',
     reversed: false,
+    featured: true,
   },
   {
     title: 'Bone Fracture Detection',
@@ -39,7 +51,43 @@ const projects = [
     demoUrl: null,
     image: '/images/project-2.png',
     reversed: true,
+    featured: false,
   },
+
+  // // ---- TODO: fill these in with your real projects ----
+  // {
+  //   title: 'TODO: Project Title',
+  //   description:
+  //     'TODO: One or two sentences on what this project does, the problem it solves, and the impact or result.',
+  //   tags: ['TODO: Tag'],
+  //   repoUrl: '#',
+  //   demoUrl: null,
+  //   image: '/images/project-1.png',
+  //   reversed: false,
+  //   featured: false,
+  // },
+  // {
+  //   title: 'TODO: Project Title',
+  //   description:
+  //     'TODO: One or two sentences on what this project does, the problem it solves, and the impact or result.',
+  //   tags: ['TODO: Tag'],
+  //   repoUrl: '#',
+  //   demoUrl: null,
+  //   image: '/images/project-1.png',
+  //   reversed: true,
+  //   featured: false,
+  // },
+  // {
+  //   title: 'TODO: Project Title',
+  //   description:
+  //     'TODO: One or two sentences on what this project does, the problem it solves, and the impact or result.',
+  //   tags: ['TODO: Tag'],
+  //   repoUrl: '#',
+  //   demoUrl: null,
+  //   image: '/images/project-1.png',
+  //   reversed: false,
+  //   featured: false,
+  // },
 ]
 
 export default projects
