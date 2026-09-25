@@ -15,7 +15,6 @@ const skillGroups = [
       'Deep Learning',
       'LLM',
       'RAG',
-      'LLM Evaluation',
       'Gen AI',
       'TensorFlow',
       'Exploratory Data Analysis',

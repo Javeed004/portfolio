@@ -11,7 +11,7 @@ const projects = [
   {
     title: 'Multi Model Based Authentication System',
     description:
-      'AI-powered facial age verification integrated into a video platform. Real-time webcam analysis grants or denies content access based on predicted age. Protecting restricted content without manual checks.',
+      "AI-powered facial age verification integrated into a video platform to gate restricted content without manual review. A webcam feed is sampled in real time, run through a TensorFlow age-estimation model, and the result is combined with a secondary verification signal before access is granted or denied. Built the end-to-end pipeline — capture, inference, and the React front end that surfaces the verification state to the user — with an emphasis on keeping the check fast enough to feel instant rather than like a gate.",
     tags: ['React JS', 'Python', 'TensorFlow'],
     repoUrl: 'https://github.com/Javeed004/Multimodal_Authenticator',
     demoUrl: null,
@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Smart Energy Monitoring',
     description:
-      'Real-time energy dashboard with AI-powered forecasting for voltage, power, and consumption trends. Integrates live Google Sheets data and Facebook Prophet to deliver actionable insights tailored to Indian households and businesses.',
+      'A real-time energy dashboard that turns raw meter readings into forecasts households and small businesses can actually act on. Live data streams in from Google Sheets, gets cleaned and aggregated, then fed into Facebook Prophet to project voltage, power draw, and consumption trends days ahead. Plotly renders the results as interactive charts inside a Streamlit app, with thresholds tuned around typical Indian tariff structures so the forecasts translate directly into "this is what your next bill looks like."',
     tags: ['Python', 'Streamlit', 'Prophet', 'Plotly', 'Google Sheets API'],
     repoUrl: 'https://github.com/Javeed004/Smart_Energy_Monitoring',
     demoUrl: null,
@@ -33,7 +33,7 @@ const projects = [
   {
     title: 'Cropy',
     description:
-      'ML-driven crop recommendation system that analyses soil and environmental data to suggest the most suitable crops for a given field — empowering farmers to make smarter, data-backed decisions for sustainable agriculture.',
+      'An ML-driven crop recommendation system built for farmers who need a fast, data-backed second opinion before planting. The model takes in soil composition, rainfall, temperature, and regional climate data, and returns a ranked list of crops best suited to that specific field rather than a generic regional guideline. The Flask backend serves predictions to a React front end designed to be usable with minimal technical background, since the people who need this tool most aren\'t data scientists.',
     tags: ['React JS', 'Flask', 'Python'],
     repoUrl: 'https://github.com/Javeed004/Cropy',
     demoUrl:
@@ -45,7 +45,7 @@ const projects = [
   {
     title: 'Bone Fracture Detection',
     description:
-      'Deep learning model trained to detect and classify bone fractures from X-ray images. Assists clinicians by automating the initial screening process, reducing diagnostic time and improving detection accuracy.',
+      'A deep learning model trained to detect and classify bone fractures directly from X-ray images, built to assist clinicians during the initial screening pass. A convolutional neural network trained with TensorFlow and scikit-learn processes each scan through an end-to-end image analysis pipeline, flagging likely fractures and their probable classification so radiologists can prioritize review rather than start from zero. Reached 96% accuracy on the held-out test set.',
     tags: ['Python'],
     repoUrl: 'https://github.com/Javeed004/Bone_fracture_detection',
     demoUrl: null,
@@ -58,7 +58,7 @@ const projects = [
   // {
   //   title: 'TODO: Project Title',
   //   description:
-  //     'TODO: One or two sentences on what this project does, the problem it solves, and the impact or result.',
+  //     'TODO: A few sentences on what this project does, the problem it solves, how it works under the hood, and the impact or result.',
   //   tags: ['TODO: Tag'],
   //   repoUrl: '#',
   //   demoUrl: null,
@@ -69,7 +69,7 @@ const projects = [
   // {
   //   title: 'TODO: Project Title',
   //   description:
-  //     'TODO: One or two sentences on what this project does, the problem it solves, and the impact or result.',
+  //     'TODO: A few sentences on what this project does, the problem it solves, how it works under the hood, and the impact or result.',
   //   tags: ['TODO: Tag'],
   //   repoUrl: '#',
   //   demoUrl: null,
@@ -80,7 +80,7 @@ const projects = [
   // {
   //   title: 'TODO: Project Title',
   //   description:
-  //     'TODO: One or two sentences on what this project does, the problem it solves, and the impact or result.',
+  //     'TODO: A few sentences on what this project does, the problem it solves, how it works under the hood, and the impact or result.',
   //   tags: ['TODO: Tag'],
   //   repoUrl: '#',
   //   demoUrl: null,
