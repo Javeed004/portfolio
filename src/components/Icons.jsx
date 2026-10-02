@@ -92,3 +92,32 @@ export function MailIcon({ className }) {
     </svg>
   )
 }
+
+export function SparklesIcon({ className }) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M10 3l1.8 4.7L16.5 9.5l-4.7 1.8L10 16l-1.8-4.7L3.5 9.5l4.7-1.8L10 3z" />
+      <path d="M18 14l.8 2.2L21 17l-2.2.8L18 20l-.8-2.2L15 17l2.2-.8L18 14z" />
+    </svg>
+  )
+}
+
+export function ServerIcon({ className }) {
+  return (
+    <svg {...base} className={className}>
+      <rect x="3" y="4" width="18" height="6" rx="1.5" />
+      <rect x="3" y="14" width="18" height="6" rx="1.5" />
+      <line x1="7" y1="7" x2="7.01" y2="7" />
+      <line x1="7" y1="17" x2="7.01" y2="17" />
+    </svg>
+  )
+}
+
+export function LayersIcon({ className }) {
+  return (
+    <svg {...base} className={className}>
+      <polygon points="12 3 2 8.5 12 14 22 8.5 12 3" />
+      <polyline points="2 13 12 18.5 22 13" />
+    </svg>
+  )
+}
