@@ -8,7 +8,7 @@ const skillGroups = [
   {
     title: 'Languages',
     icon: 'code',
-    items: ['Python', 'R', 'C++', 'SQL'],
+    items: ['Python', 'R', 'C++', 'SQL', 'HTML', 'CSS', 'JavaScript'],
     usedIn: 'Every project, Python most of all',
   },
   {
@@ -35,28 +35,36 @@ const skillGroups = [
       'Computer Vision',
       'TensorFlow',
       'Time-Series Forecasting',
+      'Statistics',
       'Exploratory Data Analysis',
       'Data Mining',
-      'Excel',
     ],
     usedIn: 'Bone Fracture Detection · Smart Energy Monitoring · Cropy',
   },
   {
     title: 'Backend & Deployment',
     icon: 'server',
-    items: ['FastAPI', 'Flask API', 'REST API Design', 'Docker', 'pytest', 'Streamlit'],
+    items: ['FastAPI', 'Flask API', 'REST API Design', 'Docker', 'pytest', 'Streamlit', 'Microsoft Azure'],
     usedIn: 'RAG Chatbot · Text-to-SQL Engine · Cropy',
   },
   {
-    title: 'Web & Design',
+    title: 'Web, BI & Design',
     icon: 'layers',
-    items: ['MERN Stack', 'React JS', 'Node.js', 'Git', 'Figma'],
+    items: ['MERN Stack', 'React JS', 'Node.js', 'Git', 'Figma', 'Excel', 'Power BI', 'RapidMiner'],
     usedIn: 'Multi Model Authentication · Cropy',
   },
   {
     title: 'Soft Skills',
     icon: 'users',
-    items: ['Problem-Solving', 'Teamwork', 'Communication', 'Design Thinking', 'Adaptability'],
+    items: [
+      'Leadership',
+      'Problem-Solving',
+      'Decision-Making',
+      'Teamwork',
+      'Communication',
+      'Design Thinking',
+      'Adaptability',
+    ],
   },
 ]
 
